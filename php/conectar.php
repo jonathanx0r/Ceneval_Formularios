@@ -1,9 +1,5 @@
 <?php
 	/*crea la conexion a la base de datos.*/
-	$hostname = "p:148.216.0.150"; 
-	$username = "rdglpz";
-	$password = "root";
-	$bdeDatos = "umichccu_sistemaIncidentes";
 
 	if (!isset($_SESSION)){
 		session_start();	
